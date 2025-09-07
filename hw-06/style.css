@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color: #191919;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 40px 70px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-wrapper {
+    width: 403px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 20px;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.58824;
+    color: #fff;
+}
+
+.main-image {
+    width: 650px;
+    border-radius: 12px;
+}
+
+.main-description {
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.main-title {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 1.25714;
+    letter-spacing: 0.05em;
+    color: #fff;
+    margin-bottom: 90px;
+    margin-top: 167px;
+}
+
+.main-span {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 1.1;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.icon-span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #fff;
+    justify-self: start;
+}
+
+.icons {
+    margin-top: 16px;
+    display: flex;
+    gap: 17px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.episodes .container {
+    padding: 100px 70px 160px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.episodes-title {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.2375;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+.btn {
+    width: fit-content;
+    height: 51px;
+    padding: 12px 15px 12px 20px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    background: #118da8;
+    cursor: pointer;
+}
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+.episode-card {
+    padding: 40px;
+    border-radius: 32px;
+    background: #000;
+    display: flex;
+    column-gap: 53px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-tag {
+    width: fit-content;
+    padding: 0 16px;
+    border-radius: 6px;
+    background: #191919;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+
+    text-align: center;
+    margin-bottom: 49px;
+}
+
+.card-title {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.58824;
+    color: #118da8;
+    margin-bottom: 18px;
+}
+
+.card-main-title {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.1;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin-bottom: 28px;
+}
+
+.card-description {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 18px;
+}
